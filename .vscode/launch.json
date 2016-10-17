@@ -1,0 +1,65 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Demo 1",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/src/demo1/index.ts",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "transpile",
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
+            "sourceMaps": true,
+            "outFiles": ["${workspaceRoot}/dist/**/*.js"]
+        },
+        {
+            "name": "Demo 2",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/src/demo2/index.ts",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "transpile",
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
+            "sourceMaps": true,
+            "outFiles": ["${workspaceRoot}/dist/**/*.js"]
+        },
+        {
+            "name": "Demo 3",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/src/demo3/index.ts",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "transpile",
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
+            "sourceMaps": true,
+            "outFiles": ["${workspaceRoot}/dist/**/*.js"]
+        }
+    ]
+}

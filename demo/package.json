@@ -1,0 +1,20 @@
+{
+  "name": "typescript-session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elio Struyf <info@estruyf.be> (http://www.eliostruyf.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.0.1",
+    "gulp-typescript": "^3.0.2",
+    "typescript": "^2.0.3"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3"
+  }
+}
