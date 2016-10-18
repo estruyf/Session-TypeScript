@@ -26,24 +26,3 @@ log("");
 
 /* Unknown variable */
 //test2 = 2 + 3;
-
-
-/* ANY if you don't know it */
-// var test2: any = {
-//     nr: 1,
-//     str: "2"
-// };
-
-
-/* Better way, create an interface */
-// interface MyType {
-//     nr: number;
-//     str: string;
-// }
-
-// var test3: MyType = {
-//     nr: 3,
-//     str: "4"
-// }
-
-// test3.

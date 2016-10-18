@@ -62,4 +62,4 @@ log("");
 
 // test1 = "42" - "something";
 // log('"42" - "something"', "-> Should return NaN (not a number):", test1);
-// log("Did you know that I'm still a number?:", chalk.green(typeof NaN));
+// log("Did you know that I'm still a number?:", chalk.blue(typeof NaN));

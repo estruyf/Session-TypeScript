@@ -6,12 +6,12 @@ log("-------------------------------");
 log("");
 
 
-var foo = 0;
-log("Initial value:", chalk.blue(foo));
-if (typeof foo === "number") {
-    var foo = 2;
-}
-log("After value:", chalk.blue(foo));
+// var foo = 0;
+// log("Initial value:", chalk.blue(foo));
+// if (typeof foo === "number") {
+//     var foo = 2;
+// }
+// log("After value:", chalk.blue(foo));
 
 
 // log("");
@@ -41,5 +41,5 @@ log("After value:", chalk.blue(foo));
 // }
 // // Calling each of the functions
 // for (var j = 0; j < 5; j++) {
-//     functions[j](); // Returns 5 each time
+//     functions[j]();
 // }
