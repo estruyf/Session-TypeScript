@@ -5,22 +5,22 @@ const log = console.log;
 
 /* Interfaces - https://www.typescriptlang.org/docs/handbook/interfaces.html */
 
-interface Person {
-    Firstname: string;
-    Lastname: string;
-    Age: number;
-}
-
-// var myvar: Person = {
-//     Firstname: "Elio",
-//     Lastname: "Struyf",
-//     Age: 31
+// interface Person {
+//     Firstname: string;
+//     Lastname: string;
+//     Birthday: Date;
 // }
 
-// myvar.
+// var myvar: Person = {
+//     Firstname: "James",
+//     Lastname: "Kelley",
+//     Birthday: new Date('1990-04-10')
+// }
+
+// //myvar.
 
 
-/* ANY if you don't know it // Could be handy with REST / API calls */
+// /* ANY if you don't know it // Could be handy with REST / API calls */
 // var myany: any = {
 //     nr: 4,
 //     str: "2"
@@ -31,7 +31,7 @@ interface Person {
 // myany = 42;
 
 
-/* Interfaces with functions */
+// /* Interfaces with functions */
 // enum Sex {
 //     Man,
 //     Woman
@@ -44,37 +44,31 @@ interface Person {
 
 // var personFunc = (person: PersonDetails): string => {
 //     if (typeof person.Single !== 'undefined') {
-//         if (person.Sex === Sex.Man) {
-//             return `Hi ${person.Firstname}, you are a man and ${person.Single ? 'single' : 'not single anymore.' }`;
-//         }
-
-//         if (person.Sex === Sex.Woman) {
-//             return `Hi ${person.Firstname}, you are a woman. ${person.Single ? 'Are you looking for a partner?' : '' }`;
-//         }
+//         return `Hi ${person.Firstname}, you're a ${Sex[person.Sex]}. ${person.Single ? 'Are you looking for a partner?' : 'I see that you\'re not single anymore.' }`;
 //     } else {
-//         return `Sorry ${person.Firstname}, but I'm not sure about you. Don't you want to tell if you are single or not?`;
+//         return `Sorry ${person.Firstname}, I'm not sure about you. Don't you want to tell if you're single or not?`;
 //     }
 // }
 
 // log(personFunc({ 
-//     Firstname: "Elio",
-//     Lastname: "Struyf",
-//     Age: 31,
+//     Firstname: "James",
+//     Lastname: "Kelley",
+//     Birthday: new Date('1990-04-10'),
 //     Sex: Sex.Man,
 //     Single: false
 // }));
 
 // log(personFunc({ 
-//     Firstname: "Yinthe",
-//     Lastname: "Struyf",
-//     Age: 4,
+//     Firstname: "Ronnie",
+//     Lastname: "Binder",
+//     Birthday: new Date('1980-07-12'),
 //     Sex: Sex.Woman,
 //     Single: true
 // }));
 
 // log(personFunc({ 
-//     Firstname: "Stephanie",
-//     Lastname: "Unknown",
-//     Age: 34,
+//     Firstname: "Shawna",
+//     Lastname: "Elliott",
+//     Birthday: new Date('1986-11-16'),
 //     Sex: Sex.Woman
 // }));

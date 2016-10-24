@@ -1,0 +1,84 @@
+{
+    "employees": [
+        {
+            "Firstname": "Selman",
+            "Lastname": "Klessens",
+            "Birthday": "1963-05-21T00:00:00Z",
+            "JobTitle": "Terrazzo worker",
+            "Address": {
+                "Street": "Populierenstraat",
+                "Number": 270,
+                "City": "Afsnee",
+                "PostalCode": 9051,
+                "Country": "Belgium"
+            },
+            "StartDate": "2005-02-01T00:00:00Z",
+            "Email": "SelmanKlessens@typescript-session.com",
+            "EmployeeNumber": 101
+        },
+        {
+            "Firstname": "Django",
+            "Lastname": "James",
+            "Birthday": "1975-01-29T00:00:00Z",
+            "JobTitle": "Street vendor",
+            "Address": {
+                "Street": "Drève des Bouleaux",
+                "Number": 92,
+                "City": "Engis",
+                "PostalCode": 4480,
+                "Country": "Belgium"
+            },
+            "StartDate": "2009-11-01T00:00:00Z",
+            "Email": "DjangoJames@typescript-session.com",
+            "EmployeeNumber": 535
+        },
+        {
+            "Firstname": "Eliana",
+            "Lastname": "Soekhoe",
+            "Birthday": "1987-10-19T00:00:00Z",
+            "JobTitle": "Infection control nurse",
+            "Address": {
+                "Street": "Place Léopold",
+                "Number": 413,
+                "City": "Hensies",
+                "PostalCode": 7350,
+                "Country": "Belgium"
+            },
+            "StartDate": "2015-12-01T00:00:00Z",
+            "Email": "ElianaSoekhoe@typescript-session.com",
+            "EmployeeNumber": 782
+        },
+        {
+            "Firstname": "Rona",
+            "Lastname": "Draaisma",
+            "Birthday": "1987-10-19T00:00:00Z",
+            "JobTitle": "Lathe and turning machine tool tender",
+            "Address": {
+                "Street": "Maskenstraat",
+                "Number": 395,
+                "City": "Kleine-Brogel",
+                "PostalCode": 3990,
+                "Country": "Belgium"
+            },
+            "StartDate": "2016-05-01T00:00:00Z",
+            "Email": "RonaDraaisma@typescript-session.com",
+            "EmployeeNumber": 901
+        },
+        {
+            "Firstname": "Selman",
+            "Lastname": "Van Hoog",
+            "Birthday": "1970-12-02T00:00:00Z",
+            "JobTitle": "Manager",
+            "Address": {
+                "Street": "Meir",
+                "Number": 1,
+                "City": "Antwerpen",
+                "PostalCode": 2000,
+                "Country": "Belgium"
+            },
+            "StartDate": "2014-01-01T00:00:00Z",
+            "Email": "SelmanVanHoog@typescript-session.com",
+            "EmployeeNumber": 1234
+        }
+    ]
+}

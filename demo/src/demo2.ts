@@ -19,6 +19,25 @@ log("After value:", foo);
 // log("-------------------------------");
 // log("");
 
+/* Showing the difference between var and let */
+// function doSomeWork() {
+//     var iamvar = "var";
+
+//     if (true) {
+//         iamvar = "new-var"
+//         let iamlet = "let";
+//     }
+
+//     console.log('Show the var value:', iamvar);
+//     console.log('Show the let value:', iamlet);
+// }
+// doSomeWork();
+
+
+// log("");
+// log("-------------------------------");
+// log("");
+
 
 // let functions = [];
 // for (let i = 0; i < 5; i++) {
@@ -41,4 +60,11 @@ log("After value:", foo);
 // const constVal = 0;
 // if (typeof constVal === "number") {
 //     constVal++;
-// } 
+// }
+
+
+// const myArray = [1, 3, 5, 7];
+// myArray = "test" // This will not work
+
+// myArray.push(9); // Works because you are appending it to the array, so you are not manipulating the const itself
+// log("Array:", myArray);

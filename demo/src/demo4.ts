@@ -1,5 +1,6 @@
 "use strict";
 
+import * as moment from 'moment';
 import * as chalk from 'chalk';
 const log = console.log;
 
@@ -11,23 +12,21 @@ let output = "Hi, I just wanted to tell you a story. \
 log(output);
 
 
-var me: IPerson = {
-    Firstname: "Elio",
-    Lastname: "Struyf",
-    Age: 31
+var person: IPerson = {
+    Firstname: "James",
+    Lastname: "Kelley",
+    Birthday: new Date('1990-04-10')
 }
 
-output = "Firstname: " + me.Firstname + " | Lastname: " + me.Lastname + " | Age: " + me.Age;
+output = "Firstname: " + person.Firstname + " | Lastname: " + person.Lastname + " | Age: " + moment().diff(person.Birthday, 'years');
 log(output);
 
 
 
 /* Template strings */
-// output = `
-// Hi, I just wanted to tell you a story.
-// About a, zzzzzzzzz
-// `;
+// output = `Hi, I just wanted to tell you a story.
+// About a, zzzzzzzzz`;
 // log(output);
 
-// output = `Firstname: ${me.Firstname} | Lastname: ${me.Lastname} | Age: ${me.Age}`;
+// output = `Firstname: ${person.Firstname} | Lastname: ${person.Lastname} | Age: ${moment().diff(person.Birthday, 'years')}`;
 // log(output);
